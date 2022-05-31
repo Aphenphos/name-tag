@@ -1,14 +1,6 @@
-//grabs name
-const nameInput = document.getElementByID('name-input');
-const nameDisplay = document.getElementById('name-display');
-console.log(name-display);
+// grab DOM elements
 
-console.log(nameInput);
-
-nameInput.addEventListener('name-input', () => {
-    const name = nameInput.value;
-    nameDisplay.textContent = name;
-    console.log('input happened');
-    console.log(name);
-});
-
+// set event listeners
+    // get info from user input
+    // use user input to update state
+    // update DOM to reflect the new state
