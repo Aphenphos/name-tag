@@ -3,20 +3,19 @@ const roleInput = document.getElementById('role-input');
 const ageInput = document.getElementById('age-input');
 
 nameInput.addEventListener('input', () => {
-    console.log('input happened!');
     const name = nameInput.value;
-    console.log(name);
+    const nameDisplay = document.getElementById('name-display');
+    nameDisplay.textContent = name;
 });
 
 roleInput.addEventListener('input', () => {
-    console.log('input happened!');
     const role = roleInput.value;
-    console.log(role);
+    const roleDisplay = document.getElementById('role-display');
+    roleDisplay.textContent = role;
 });
 
 ageInput.addEventListener('input', () => {
-    console.log('input happened!');
     const age = ageInput.value;
-    console.log(age);
+    const ageDisplay = document.getElementById('age-display');
+    ageDisplay.textContent = age;
 });
-
