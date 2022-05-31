@@ -38,6 +38,7 @@ footer {
 #name-display{
     position: absolute;
     font-size: 90px;
+    text-shadow: 2px 5px grey;
     top: 300px;
     left: 400px;
 }
@@ -45,6 +46,7 @@ footer {
 #role-display{
     position: absolute;
     font-size: 90px;
+    text-shadow: 2px 5px grey;
     top: 400px;
     left: 400px;
 }
@@ -52,6 +54,7 @@ footer {
 #age-display{
     position: absolute;
     font-size: 90px;
+    text-shadow: 2px 5px grey;
     top: 500px;
     left: 400px;
 }
