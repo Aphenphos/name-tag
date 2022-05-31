@@ -7,8 +7,9 @@
 }
 
 body {
-    font-family: 'Hubballi', cursive;
+    font-family: 'sans-serif', cursive;
     background-color: var(--background);
+    
 }
 
 header {
