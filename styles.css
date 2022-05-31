@@ -34,3 +34,24 @@ footer {
     border: 5px solid black;
     display: inline-block;
 }
+
+#name-display{
+    position: absolute;
+    font-size: 90px;
+    top: 300px;
+    left: 400px;
+}
+
+#role-display{
+    position: absolute;
+    font-size: 90px;
+    top: 400px;
+    left: 400px;
+}
+
+#age-display{
+    position: absolute;
+    font-size: 90px;
+    top: 500px;
+    left: 400px;
+}
