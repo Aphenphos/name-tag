@@ -7,8 +7,9 @@
 }
 
 body {
-    font-family: 'Hubballi', cursive;
+    font-family: 'sans-serif', cursive;
     background-color: var(--background);
+    
 }
 
 header {
@@ -26,4 +27,34 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+
+.name-tag-design{
+    border: 5px solid black;
+    display: inline-block;
+}
+
+#name-display{
+    position: absolute;
+    font-size: 90px;
+    text-shadow: 2px 5px grey;
+    top: 300px;
+    left: 400px;
+}
+
+#role-display{
+    position: absolute;
+    font-size: 90px;
+    text-shadow: 2px 5px grey;
+    top: 400px;
+    left: 400px;
+}
+
+#age-display{
+    position: absolute;
+    font-size: 90px;
+    text-shadow: 2px 5px grey;
+    top: 500px;
+    left: 400px;
 }
